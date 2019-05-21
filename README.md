@@ -2,7 +2,7 @@
 
 ## 项目介绍
 1. 本项目为python工程，所有导逻辑均在~/main/中
-2. ~/test-tools文件夹是测试用的Excel和导出路径
+2. ~/test-tools/文件夹是测试用的Excel和导出路径
 3. ~/test-tools/UserExcel.xlsx是提供的一个模板表格
 4. ~/test-tools/export-lua/文件夹是测试导出的*.lua文件
 3. python版本：3.7
