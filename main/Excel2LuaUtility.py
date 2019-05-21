@@ -50,7 +50,7 @@ def get_sheet_useless_key(types):
     pass
 
 def get_sheet_values(sheet):
-    print(sheet.name)
+    # print(sheet.name)
     values = {}
     for i in range(3, sheet.nrows):
         id = i - 3 + 1 # id 从1开始
@@ -81,11 +81,10 @@ def found_tabe_end_marks(types, keys):
                     ishave = True
                     break
             if not ishave:
-                # if
                 overstack_mark_list.append(mark_count)
-    print(mark_list)
+    # print(mark_list)
     overstack_mark_list.reverse()
-    print(overstack_mark_list)
+    # print(overstack_mark_list)
     return mark_list, overstack_mark_list
 
 def convert_sheet(types, keys, values):
@@ -125,7 +124,8 @@ def convert_sheet(types, keys, values):
         data_str = data_str + '\t},\n'
     data_str = data_str + '}'
     data_str = data_str.replace('#', '\t')
-    print(data_str)
+    # print(data_str)
+    return data_str
 
 
 
