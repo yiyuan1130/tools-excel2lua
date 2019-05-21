@@ -5,7 +5,7 @@
 2. ~/test-tools/文件夹是测试用的Excel和导出路径
 3. ~/test-tools/UserExcel.xlsx是提供的一个模板表格
 4. ~/test-tools/export-lua/文件夹是测试导出的*.lua文件
-3. python版本：3.7
+3. python版本：python3.7
 4. 用到的库：xlrd, tkinter, os, time
 
 ## 功能介绍
