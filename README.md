@@ -1,5 +1,11 @@
 # tools-excel2lua
 
+## 项目介绍
+1. Excel2Lua文件夹是整个Excel导出Lua的python项目
+2. 使用到的python和库及其版本
+    1. python：python 3.7
+    2. Excel读取：xlrd 1.2.0
+
 ## 功能介绍
 1. 支持导出Lua文件，自动换行对齐
 2. 支持自定义字段不导入Lua
