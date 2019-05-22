@@ -1,5 +1,5 @@
 import xlrd
-from main import Excel2LuaUtility
+import Excel2LuaUtility
 import os
 import time
 from tkinter import *

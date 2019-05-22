@@ -1,8 +1,6 @@
 import os
 import xlrd
-import json
-from main import Excel2LuaUtility
-from main import Excel2Lua
+import Excel2Lua
 
 
 
